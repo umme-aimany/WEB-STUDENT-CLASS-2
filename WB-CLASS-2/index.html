@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css">
+    <style>
+        ul {
+    list-style-image: url(./imgg1.jpg);
+    height: 2px;
+    width: 2px;
+} 
+ li {
+    margin: 10px 0px 0px 0px;} 
+     .pop{
+        list-style-position: inside;
+    }  
+    .pop1{
+        list-style-position: unset;
+    }
+    td {
+    border: 1px solid #0088dd;
+    padding: 15px;}
+    table.one {
+    empty-cells: show;}
+    table.two {
+    empty-cells: hide;};
+    td {
+        background-color: #0088dd;
+        padding: 15px;
+        border: 2px solid #000000;}
+        table.one {
+        border-spacing: 5px 15px;}
+        table.two {
+        border-collapse: collapse;}
+        .list{
+            width: 200px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: grey;
+            color:red;
+
+        }
+        .submit{
+             width: 200px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: grey;
+            color:red;
+
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+  <h1>fruit names</h1>
+  <ul class="pop">
+    <li>apple</li>
+    <li>mango</li>
+    <li>banana</li>
+    <li>orange</li>
+  </ul>
+  <ul class="pop2">
+    <li>apple iswi</li>
+    <li>mango   msdnjefefjef</li>
+    <li>banana  jdiejf</li>
+    <li>orange   jdiei</li>
+  </ul>
+  
+
+    <table>
+        <tr>
+            <td>
+                aiman
+            </td>
+            
+        </tr>
+        <tr>
+            <td>khan</td>
+        </tr>
+    </table>
+    <table class="one">
+        <tr>
+         <td>1</td>
+         <td>2</td>
+        </tr>
+        <tr>
+         <td>3</td>
+         <td></td>
+        </tr>
+        </table>
+        
+        <hr>
+        <table class="one">
+            <tr>
+             <td>1</td>
+             <td>2</td>
+            </tr>
+            <tr>
+             <td>3</td>
+             <td>4</td>
+            </tr>
+            </table>
+            <form>
+                <input  class="list" type="text" placeholder="enter youer name">
+                <input class="submit" type="submit">
+
+            </form>
+            <form action="example.php" method="post">
+                <div>
+                 <label for="name" class="title">Name:</label>
+                 <input type="text" id="name" name="name" />
+                </div>
+                <div>
+                 <label for="email" class="title">Email:</label>
+                 <input type="email" id="email" name="email" />
+                </div>
+                <div>
+                 <span class="title">Gender:</span>
+                 <input type="radio" name="gender" id="male"
+                 value="M" />
+                 <label for="male">Male</label>
+                 <input type="radio" name="gender" id="female"
+                 value="F" />
+                 <label for="female">Female</label><br />
+                </div>
+                <div>
+                 <input type="submit" value="Register"
+                 id="submit" />
+                </div>
+                </form>
+                <form>
+                    <legend>
+                        form
+                    </legend>
+                </form>
+                <p style="cursor: copy;">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non laboriosam vel distinctio, aperiam eius cumque incidunt ea beatae! Quod facilis debitis modi nesciunt, culpa obcaecati expedita ratione necessitatibus harum repudiandae.
+                </p>
+    
+</body>
+</html>
